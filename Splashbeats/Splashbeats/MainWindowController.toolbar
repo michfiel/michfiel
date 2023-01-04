@@ -1,0 +1,20 @@
+{
+    allowedItemIdentifiers = (
+        DestinationPopup, InputKeyboardPopup
+    );
+    defaultItemIdentifiers = (
+        DestinationPopup, InputKeyboardPopup
+    );
+    itemInfoByIdentifier = {
+        DestinationPopup = {
+            label = "SysEx Source and Destination";
+            toolTip = "Where to send and receive SysEx data";
+            needsSpecialInitialization = YES;
+        };
+        InputKeyboardPopup = {
+            label = "Input Keyboard";
+            toolTip = "Monitor for Input Notes";
+            needsSpecialInitialization2 = YES;
+        };
+    };
+}

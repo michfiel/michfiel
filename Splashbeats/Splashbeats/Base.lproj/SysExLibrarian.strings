@@ -1,0 +1,175 @@
+﻿/* format for milliseconds */
+"%d milliseconds" = "%d milliseconds";
+
+/* importing sysex: x of y */
+"%u of %u" = "%1$u of %2$u";
+
+/* one second (formatting of milliseconds) */
+"1 second" = "1 second";
+
+/* display name of virtual source */
+"Act as a source for other programs" = "Act as a source for other programs";
+
+/* Cancel */
+"Cancel" = "Cancel";
+
+/* Cancelled. */
+"Cancelled." = "Cancelled.";
+
+/* title of alert when can't read a sysex file */
+"Could not read SysEx" = "Could not read SysEx";
+
+/* format of exception if can't create new sysex file */
+"Couldn't create the file %@" = "Couldn't create the file %@";
+
+/* title of destination toolbar item */
+"Destination" = "Destination";
+
+/* Done. */
+"Done." = "Done.";
+
+/* title of error alert */
+"Error" = "Error";
+
+/* title of alert for file already in library */
+"In Use" = "In Use";
+
+/* title of alert for missing file */
+"Missing File" = "Missing File";
+
+/* missing string */
+"Missing String" = "Missing String";
+
+/* format of message when no sysex data found in files */
+"No SysEx data could be found in %u of the files. They have not been added to the library." = "No SysEx data could be found in %u of the files. They have not been added to the library.";
+
+/* message when no sysex data found in file */
+"No SysEx data could be found in this file. It has not been added to the library." = "No SysEx data could be found in this file. It has not been added to the library.";
+
+/* none */
+"None" = "None";
+
+/* OK */
+"OK" = "OK";
+
+/* title of quit button */
+"Quit" = "Quit";
+
+/* message when receiving sysex */
+"Receiving SysEx message..." = "Receiving SysEx message...";
+
+/* Scanning... */
+"Scanning..." = "Scanning...";
+
+/* format for progress message when sending multiple sysex messages */
+"Sending message %u of %u..." = "Sending message %1$u of %2$u...";
+
+/* progress message when sending one sysex message */
+"Sending message..." = "Sending message...";
+
+/* default file name for exported standard MIDI file (w/o extension) */
+"SysEx" = "SysEx";
+
+/* message of alert when can't send feedback email */
+"SysEx Librarian could not ask your email application to create a new message, so you will have to do it yourself. Please send your email to this address:\n%@\nThank you!" = "SysEx Librarian could not ask your email application to create a new message, so you will have to do it yourself. Please send your email to this address:\n%@\nThank you!";
+
+/* subject of feedback email */
+"SysEx Librarian Feedback" = "SysEx Librarian Feedback";
+
+/* message for file already in library */
+"That file is already in the library. Please choose another one." = "That file is already in the library. Please choose another one.";
+
+/* message of alert when recording to a new file fails */
+"The file could not be created.\n%@" = "The file could not be created.\n%@";
+
+/* error message if library file can't be read */
+"The file could not be read." = "The file could not be read.";
+
+/* message if sysex can't be exported */
+"The file could not be saved." = "The file could not be saved.";
+
+/* error message if sysex file can't be written */
+"The file could not be written." = "The file could not be written.";
+
+/* format of message for missing file */
+"The file for the item \"%@\" could not be found. Would you like to locate it?" = "The file for the item \"%@\" could not be found. Would you like to locate it?";
+
+/* message of alert when renaming a file fails */
+"The file for this item could not be renamed." = "The file for this item could not be renamed.";
+
+/* error message if library file isn't readable */
+"The file's privileges do not allow reading." = "The file's privileges do not allow reading.";
+
+/* error message if library file isn't writable */
+"The file's privileges do not allow writing." = "The file's privileges do not allow writing.";
+
+/* error message if sysex file directory can't be created */
+"The folder %@ could not be created.\n%@" = "The folder %@ could not be created.\n%@";
+
+/* error message if sysex file directory isn't readable */
+"The folder's privileges do not allow reading." = "The folder's privileges do not allow reading.";
+
+/* error message if sysex file directory isn't searchable */
+"The folder's privileges do not allow searching." = "The folder's privileges do not allow searching.";
+
+/* error message if sysex file directory isn't writable */
+"The folder's privileges do not allow writing." = "The folder's privileges do not allow writing.";
+
+/* error message if help file can't be found */
+"The help file could not be found." = "The help file could not be found.";
+
+/* error message if opening the help file fails */
+"The help file could not be opened." = "The help file could not be opened.";
+
+/* format of error message if the library file can't be saved */
+"The library \"%@\" could not be saved.\n%@" = "The library \"%1$@\" could not be saved.\n%2$@";
+
+/* format of error message if library file's folder can't be read */
+"The privileges of the folder \"%@\" do not allow reading." = "The privileges of the folder \"%@\" do not allow reading.";
+
+/* format of error message if library file's folder can't be searched */
+"The privileges of the folder \"%@\" do not allow searching." = "The privileges of the folder \"%@\" do not allow searching.";
+
+/* format of error message if library file's folder can't be written */
+"The privileges of the folder \"%@\" do not allow writing." = "The privileges of the folder \"%@\" do not allow writing.";
+
+/* error message if sysex file directory is really a file */
+"There is a file where the folder should be." = "There is a file where the folder should be.";
+
+/* error message if library file is really a directory */
+"There is a folder where the file should be." = "There is a folder where the file should be.";
+
+/* error message if library file can't be read (preflight) */
+"There is a problem accessing the library \"%@\".\n%@" = "There is a problem accessing the library \"%1$@\".\n%2$@";
+
+/* error message if SysEx files folder can't be accessed (preflight) */
+"There is a problem accessing the SysEx files folder \"%@\".\n%@" = "There is a problem accessing the SysEx files folder \"%1$@\".\n%2$@";
+
+/* error message if MIDI initialization fails */
+"There was a problem initializing the MIDI system. To try to fix this, log out and log back in, or restart the computer." = "There was a problem initializing the MIDI system. To try to fix this, log out and log back in, or restart the computer.";
+
+/* format of progress message when receiving multiple sysex messages (one message so far) */
+"Total: %u message, %@" = "Total: %1$u message, %2$@";
+
+/* format of progress message when receiving multiple sysex messages (more than one message so far) */
+"Total: %u messages, %@" = "Total: %1$u messages, %2$@";
+
+/* Unknown
+   name of missing endpoint if not specified in document */
+"Unknown" = "Unknown";
+
+/* unknown exception when adding newly recorded messages to library */
+"Unknown error" = "Unknown error";
+
+/* name of new sysex file */
+"Untitled" = "Untitled";
+
+/* Various */
+"Various" = "Various";
+
+/* message when waiting for sysex */
+"Waiting for SysEx message..." = "Waiting for SysEx message...";
+
+/* Yes */
+"Yes" = "Yes";
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="12F2560" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1080" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MainWindowController">
+            <connections>
+                <outlet property="destinationPopUpButton" destination="pMb-vm-vkD" id="BZA-wf-dHQ"/>
+                <outlet property="inputKeyboardPopupButton" destination="Jeo-yM-SEx" id="h5n-jY-VQ9"/>
+                <outlet property="window" destination="1" id="3"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="Splashbeat" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" animationBehavior="default" id="1">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="413" height="222"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1028"/>
+            <view key="contentView" id="2">
+                <rect key="frame" x="0.0" y="0.0" width="413" height="222"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="4"/>
+            </connections>
+        </window>
+        <customView id="hAT-xO-5W3" userLabel="Toolbar Items">
+            <rect key="frame" x="0.0" y="0.0" width="202" height="112"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pMb-vm-vkD">
+                    <rect key="frame" x="12" y="68" width="185" height="26"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <popUpButtonCell key="cell" type="push" title="Item3" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="HID-xa-oI0" id="KS9-Ms-JWJ">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" title="OtherViews" id="g2b-hC-2LC">
+                            <items>
+                                <menuItem title="Item1" id="9g7-YG-oaj"/>
+                                <menuItem title="Item2" id="nVr-5g-4P1"/>
+                                <menuItem title="Item3" state="on" id="HID-xa-oI0"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                    <connections>
+                        <action selector="selectDestinationFromPopUpButton:" target="-2" id="kdz-Fp-iB8"/>
+                    </connections>
+                </popUpButton>
+                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jeo-yM-SEx">
+                    <rect key="frame" x="12" y="17" width="185" height="26"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                    <popUpButtonCell key="cell" type="push" title="Item1" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="h2h-CP-ydJ" id="es8-tx-KBe">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" title="OtherViews" id="QhV-Ut-V4j">
+                            <items>
+                                <menuItem title="Item1" state="on" id="h2h-CP-ydJ"/>
+                                <menuItem title="Item2" id="ZZj-X8-b6h"/>
+                                <menuItem title="Item3" id="ojP-Jj-N0I"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                </popUpButton>
+            </subviews>
+        </customView>
+    </objects>
+</document>
